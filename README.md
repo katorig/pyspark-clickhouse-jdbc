@@ -11,3 +11,5 @@ Jar file from https://mvnrepository.com/artifact/ru.yandex.clickhouse/clickhouse
 `notebook_example.ipynb` for running Jupyter notebook on hadoop cluster. 
 
 Environment variables and archives paths needed for running application on particular hadoop cluster are missed on purpose.
+
+Note: path to jar file 

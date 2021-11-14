@@ -3,7 +3,8 @@
 import os
 from pyspark.sql import SparkSession
 
-CLICKHOUSE_JAR = 'file:///home/katorig/clickhouse-jdbc-0.3.1.jar'
+ABSOLUTE_PATH_TO_JARFILE = '/home/katorig/clickhouse-jdbc-0.3.1.jar'
+CLICKHOUSE_JAR = f'file://{ABSOLUTE_PATH_TO_JARFILE}'
 
 
 def init_spark(app_name: str, num_executors: int, executor_memory='1G',
