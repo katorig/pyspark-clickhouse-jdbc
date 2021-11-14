@@ -12,4 +12,4 @@ Jar file from https://mvnrepository.com/artifact/ru.yandex.clickhouse/clickhouse
 
 Environment variables and archives paths needed for running application on particular hadoop cluster are missed on purpose.
 
-Note: path to jar file 
+Note: don't forget to edit path to jar file (ABSOLUTE_PATH_TO_JARFILE variable in all files)
